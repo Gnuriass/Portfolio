@@ -1,0 +1,1775 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarochinee Bunyarit — Portfolio</title>
+    <meta
+      name="description"
+      content="Sarochinee Bunyarit — Computer Engineering graduate specializing in AI, network engineering, and cyber security."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" id="bg-glow" aria-hidden="true"></div>
+
+    <div id="loading-screen">
+      <div class="loader">
+        <div class="loader-name">
+          Welcome <span class="m">to my</span> <br /><span class="m"
+            >Portfolio</span
+          >
+          Website
+        </div>
+        <div class="loader-bar"></div>
+        <div class="loader-tag">Loading portfolio…</div>
+      </div>
+    </div>
+
+    <header id="site-header">
+      <nav class="wrap">
+        <a href="#home" class="logo">sairung<span>.</span></a>
+        <div class="nav-links" id="nav-links">
+          <a href="#home" data-nav="home">Home</a>
+          <a href="#about" data-nav="about">About</a>
+          <a href="#portfolio" data-nav="portfolio">Portfolio</a>
+          <a href="#experience" data-nav="experience">Experience</a>
+          <a href="#contact" data-nav="contact">Contact</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px">
+          <a href="#contact" class="btn btn-primary nav-cta">Get in touch</a>
+          <button
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+      <button class="mobile-close" id="mobile-close" aria-label="Close menu">
+        &times;
+      </button>
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#portfolio" data-nav="portfolio">Portfolio</a>
+      <a href="#experience" data-nav="experience">Experience</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <main id="main-content">
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="wrap hero-grid">
+          <div>
+            <span class="hero-kicker">Computer Engineering · AI </span>
+            <h1>
+              Building <em>intelligent</em><br />
+              systems
+            </h1>
+            <p class="hero-sub">
+              Exploring AI, 3D avatar technology, and automation through
+              research and hands-on projects, while continuing to develop my
+              skills in network and cyber security.
+            </p>
+            <div class="hero-cta">
+              <a
+                href="#portfolio"
+                class="btn btn-primary"
+                data-scroll-target="portfolio"
+                >View Projects</a
+              >
+            </div>
+            <div class="hero-tags">
+              <span class="htag">AI &amp; LLM</span>
+              <span class="htag">3D Avatar</span>
+              <span class="htag">Automation</span>
+              <span class="htag">Python</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <canvas
+              id="node-canvas"
+              role="img"
+              aria-label="Animated diagram connecting AI, 3D Avatar, and Automation"
+            ></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="wrap about-grid">
+          <div class="avatar-wrap">
+            <div class="avatar">
+              <img src="me.JPG" alt="Portrait of Sarochinee Bunyarit" />
+            </div>
+          </div>
+          <div>
+            <span class="eyebrow" style="--dot: #aa2ff2">About Me</span>
+            <!--<h2 class="sec-title">Building the systems that keep things running — and running smart</h2> -->
+            <h2 class="sec-title2">
+              Sarochinee Bunyarit <span class="s">(Sairung)</span>
+            </h2>
+
+            <div class="about-body" style="margin-top: 20px">
+              <p>
+                <strong>Computer Engineering graduate</strong> with a strong
+                interest in Artificial Intelligence, focusing on AI systems, 3D
+                avatar technology, and intelligent applications. My experience
+                includes AI research and hands-on experimentation with AI
+                models, alongside experience in automation, network engineering
+              </p>
+              <p>
+                I enjoy exploring how emerging technologies can be combined to
+                solve real-world problems and continuously develop my skills
+                through research, experimentation, and practical projects.
+              </p>
+            </div>
+            <div class="hero-cta">
+              <a
+                href="/assets/Sarochinee_Bunyarit_Resume.pdf"
+                download="Sarochinee_Bunyarit_Resume.pdf"
+                class="btn btn-primary"
+                >Download Resume</a
+              >
+              <a
+                href="/assets/Sarochinee_Bunyarit_Transcript.pdf"
+                download="Sarochinee_Bunyarit_Transcript.pdf"
+                class="btn btn-primary"
+                >Download Transcript</a
+              >
+              <a
+                href="/assets/"
+                download="Sarochinee_Bunyarit_Graduation.pdf"
+                class="btn btn-primary"
+                >Download Graduation certificate</a
+              >
+            </div>
+            <div class="facts">
+              <!--<div class="fact reveal reveal-stagger" style="--r-i:0"><div class="icon">🚀</div><div class="k">Projects</div><div class="v">06+</div></div>
+          <div class="fact reveal reveal-stagger" style="--r-i:1"><div class="icon">🏅</div><div class="k">Certificates</div><div class="v">01+</div></div>
+          <div class="fact reveal reveal-stagger" style="--r-i:2"><div class="icon">✅</div><div class="k">Completed Works</div><div class="v">08+</div></div> -->
+              <div class="fact">
+                <div class="k">Location</div>
+                <div class="v">Bangkok, Thailand</div>
+              </div>
+              <div class="fact">
+                <div class="k">Focus</div>
+                <div class="v">AI & Intelligent Systems</div>
+              </div>
+              <div class="fact">
+                <div class="k">GPA</div>
+                <div class="v">3.07 / 4.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO SHOWCASE -->
+      <section
+        id="portfolio"
+        style="
+          background: var(--bg-alt);
+          border-top: 1px solid var(--line);
+          border-bottom: 1px solid var(--line);
+        "
+      >
+        <div class="wrap">
+          <span class="eyebrow" style="--dot: var(--sun)">Portfolio</span>
+          <h2 class="sec-title">Portfolio Showcase</h2>
+          <p class="sec-lede">
+            Explore my journey through projects, certifications, and technical
+            expertise. Code for most of these lives on
+            <a
+              href="https://github.com/Gnuriass"
+              target="_blank"
+              rel="noopener"
+              style="
+                color: var(--sky);
+                font-weight: 700;
+                text-decoration: underline;
+              "
+              >github.com/Gnuriass</a
+            >.
+          </p>
+
+          <div class="tab-bar" role="tablist" aria-label="Portfolio sections">
+            <button
+              class="tab-btn active"
+              role="tab"
+              aria-selected="true"
+              aria-controls="tab-projects"
+              id="tabbtn-projects"
+              data-tab="projects"
+            >
+              Projects
+            </button>
+            <button
+              class="tab-btn"
+              role="tab"
+              aria-selected="false"
+              aria-controls="tab-certificates"
+              id="tabbtn-certificates"
+              data-tab="certificates"
+            >
+              Certificates
+            </button>
+            <button
+              class="tab-btn"
+              role="tab"
+              aria-selected="false"
+              aria-controls="tab-techstack"
+              id="tabbtn-techstack"
+              data-tab="techstack"
+            >
+              Tech Stack
+            </button>
+          </div>
+
+          <!-- PROJECTS TAB -->
+          <div
+            class="tab-panel active"
+            id="tab-projects"
+            role="tabpanel"
+            aria-labelledby="tabbtn-projects"
+          >
+            <div class="featured-project">
+              <div>
+                <div class="badge-win">
+                  🏆 1st Place — Participant Choice Award
+                </div>
+                <h3>Mr. Guide — AI Automation ChatBot</h3>
+                <p>
+                  A digital travel chatbot developed for the
+                  <strong>AI for Business</strong>
+                  Course, <br />automating traveler support and trip planning
+                  through n8n workflows and the <br />LINE Messaging API.
+                </p>
+                <div class="fp-stack">
+                  <span>n8n</span><span>LINE Messaging API</span
+                  ><span>Docker</span>
+                </div>
+                <div class="fp-actions">
+                  <button
+                    type="button"
+                    class="btn btn-ghost view-details-btn"
+                    data-detail="proj-0"
+                  >
+                    Preview
+                  </button>
+                  <a
+                    href="https://github.com/Gnuriass/n8n-project"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn btn-ghost"
+                  >
+                    View on GitHub →
+                  </a>
+                </div>
+              </div>
+              <div class="fp-visual">
+                <img
+                  src="images/project/pj0.png"
+                  alt="Mr. Guide AI Automation ChatBot"
+                />
+              </div>
+            </div>
+
+            <div class="proj-grid" id="project-grid">
+              <!-- PROJECTS 1 -->
+              <div
+                class="proj-card reveal reveal-stagger"
+                tabindex="0"
+                data-detail="proj-1"
+                style="--r-i: 0"
+              >
+                <div class="proj-top">
+                  <div class="proj-icon">
+                    <img
+                      src="images/project/pj1.png"
+                      alt="n8n Workflow Project"
+                    />
+                  </div>
+                </div>
+                <span class="proj-tag" style="--pc-fg: var(--mint)"
+                  >Network Automatic · Python</span
+                >
+                <h3>Network Backup &amp; Monitoring</h3>
+                <p>
+                  Automated network device backup, SSH-based communication, and
+                  a reporting dashboard built during my infrastructure
+                  internship, with the solution further developed and put into
+                  practical use by the team.
+                </p>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    data-detail="proj-1"
+                  >
+                    Preview →
+                  </button>
+                </div>
+              </div>
+              <!-- PROJECTS 2 -->
+              <div
+                class="proj-card reveal reveal-stagger"
+                tabindex="0"
+                data-detail="proj-2"
+                style="--r-i: 1"
+              >
+                <div class="proj-top">
+                  <div class="proj-icon">
+                    <img
+                      src="images/project/pj2.png"
+                      alt="LowkeyTech Learning Platform"
+                    />
+                  </div>
+                </div>
+                <span class="proj-tag" style="--pc-fg: #f39c96"
+                  >Business Development · Full-Stack Web</span
+                >
+                <h3>LowkeyTech Learning Platform</h3>
+                <p>
+                  A full-stack learning platform designed to help beginners
+                  develop digital skills through online and onsite courses, with
+                  user authentication, profiles, and MySQL database integration.
+                </p>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    data-detail="proj-2"
+                  >
+                    Preview →
+                  </button>
+                </div>
+              </div>
+              <!-- PROJECTS 3 -->
+              <div
+                class="proj-card reveal reveal-stagger"
+                tabindex="0"
+                data-detail="proj-3"
+                style="--r-i: 2"
+              >
+                <div class="proj-top">
+                  <div class="proj-icon">
+                    <img
+                      src="images/project/pj3.png"
+                      alt="Book Recommendation Platform"
+                    />
+                  </div>
+                </div>
+                <span class="proj-tag" style="--pc-fg: #998ed9"
+                  >Full-Stack Web · React</span
+                >
+                <h3>Book Recommendation Platform</h3>
+                <p>
+                  A web platform for discovering, exploring, and finding books
+                  that match readers interests.
+                </p>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    data-detail="proj-3"
+                  >
+                    Preview →
+                  </button>
+                </div>
+              </div>
+              <!-- PROJECTS 4 -->
+              <div
+                class="proj-card reveal reveal-stagger"
+                tabindex="0"
+                data-detail="proj-4"
+                style="--r-i: 3"
+              >
+                <div class="proj-top">
+                  <div class="proj-icon">
+                    <img src="images/project/pj4.png" alt="The Locked Diary" />
+                  </div>
+                </div>
+                <span class="proj-tag" style="--pc-fg: #12b1e5"
+                  >C++ · Object-Oriented Programming</span
+                >
+                <h3>The Locked Diary</h3>
+                <p>
+                  A C++ console diary application focused on secure data
+                  management and object-oriented design.
+                </p>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    data-detail="proj-4"
+                  >
+                    Preview →
+                  </button>
+                </div>
+              </div>
+              <!-- PROJECTS 5 -->
+              <div
+                class="proj-card reveal reveal-stagger"
+                tabindex="0"
+                data-detail="proj-5"
+                style="--r-i: 4"
+              >
+                <div class="proj-top">
+                  <div class="proj-icon">
+                    <img
+                      src="images/project/pj5.png"
+                      alt="Automatic Cat Feeder"
+                    />
+                  </div>
+                </div>
+                <span class="proj-tag" style="--pc-fg: var(--sun)"
+                  >Embedded Systems · IoT</span
+                >
+                <h3>Automatic Cat Feeder</h3>
+                <p>
+                  An IoT-based automatic cat feeder with remote control and
+                  real-time monitoring, developed as a group microprocessor
+                  systems project using Python.
+                </p>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    data-detail="proj-5"
+                  >
+                    Preview →
+                  </button>
+                </div>
+              </div>
+              <!-- PROJECTS 6 -->
+              <div
+                class="proj-card reveal reveal-stagger"
+                tabindex="0"
+                data-detail="proj-6"
+                style="--r-i: 5"
+              >
+                <div class="proj-top">
+                  <div class="proj-icon">
+                    <img
+                      src="images/project/pj6.png"
+                      alt="Electric & Water Bill Calculator"
+                    />
+                  </div>
+                </div>
+                <span class="proj-tag" style="--pc-fg: #dd7755"
+                  >C · Programming Fundamentals</span
+                >
+                <h3>Electricity &amp; Water Billing System</h3>
+                <p>
+                  A C language utility calculator for electricity and water
+                  billing.
+                </p>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    data-detail="proj-6"
+                  >
+                    Preview →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project detail modal -->
+          <div
+            class="modal-backdrop"
+            id="proj-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="proj-modal-title"
+          >
+            <div class="modal-box">
+              <button
+                class="modal-close"
+                id="proj-modal-close"
+                aria-label="Close"
+              >
+                &times;
+              </button>
+              <div class="modal-visual" id="proj-modal-visual"></div>
+              <h3 id="proj-modal-title">Project name</h3>
+              <div class="modal-meta" id="proj-modal-meta">Category</div>
+              <p id="proj-modal-desc">Description</p>
+              <div class="modal-badges" id="proj-modal-badges"></div>
+              <div class="proj-actions" style="margin-top: 20px">
+                <a
+                  href="#"
+                  id="proj-modal-github"
+                  target="_blank"
+                  rel="noopener"
+                  >View on GitHub →</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- CERTIFICATES TAB -->
+          <div
+            class="tab-panel"
+            id="tab-certificates"
+            role="tabpanel"
+            aria-labelledby="tabbtn-certificates"
+          >
+            <div class="cert-grid" id="cert-grid">
+              <!-- Certificate 1 -->
+              <div
+                class="cert-card reveal reveal-stagger"
+                tabindex="0"
+                data-cert="0"
+                style="--r-i: 0"
+              >
+                <div class="cert-thumb">
+                  <img
+                    src="images/cert/c1.jpg"
+                    alt="Security Engineer Program"
+                  />
+                </div>
+                <div class="cert-body">
+                  <h3>Security Engineer Program</h3>
+                  <div class="cert-org">ARIT</div>
+                  <div class="cert-date">2025</div>
+                  <div class="cert-desc">
+                    Selected for the Security Engineer program, covering network
+                    security, security principles, programming, Linux
+                    administration, cloud security, threat hunting, SIEM, and
+                    incident response.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Certificate 2 -->
+              <div
+                class="cert-card reveal reveal-stagger"
+                tabindex="0"
+                data-cert="1"
+                style="--r-i: 1"
+              >
+                <div class="cert-thumb">
+                  <img
+                    src="images/cert/c2.jpg"
+                    alt="Basic Cybersecurity Training"
+                  />
+                </div>
+                <div class="cert-body">
+                  <h3>Basic Cybersecurity Training</h3>
+                  <div class="cert-org">Department of Skill Development</div>
+                  <div class="cert-date">2025</div>
+                  <div class="cert-desc">
+                    Completed online training in Basic Cybersecurity, covering
+                    fundamental cybersecurity concepts and practices.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Certificate 3 -->
+              <div
+                class="cert-card reveal reveal-stagger"
+                tabindex="0"
+                data-cert="2"
+                style="--r-i: 2"
+              >
+                <div class="cert-thumb">
+                  <img
+                    src="images/cert/c3.jpg"
+                    alt="Basic Cybersecurity Training"
+                  />
+                </div>
+                <div class="cert-body">
+                  <h3>Basic Cybersecurity Training</h3>
+                  <div class="cert-org">
+                    Thailand Professional Qualification Institute (TPQI)
+                  </div>
+                  <div class="cert-date">2025</div>
+                  <div class="cert-desc">
+                    Completed Basic Cybersecurity training focused on
+                    foundational knowledge and professional cybersecurity
+                    competencies.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate lightbox modal -->
+          <div class="image-lightbox" id="cert-image-lightbox">
+            <button
+              type="button"
+              class="image-lightbox-close"
+              id="cert-image-lightbox-close"
+              aria-label="Close image"
+            >
+              &times;
+            </button>
+
+            <img id="cert-lightbox-image" src="" alt="Certificate Preview" />
+          </div>
+
+          <!-- TECH STACK TAB -->
+          <div
+            class="tab-panel"
+            id="tab-techstack"
+            role="tabpanel"
+            aria-labelledby="tabbtn-techstack"
+          >
+            <div class="tech-grid">
+              <!-- Python -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 0"
+              >
+                <span class="tooltip">Python</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/python.png"
+                  alt="Python"
+                />
+                <span class="tech-name">Python</span>
+              </div>
+              <!-- n8n -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 1"
+              >
+                <span class="tooltip">n8n</span>
+                <img class="tech-icon" src="images/tech/n8n.png" alt="n8n" />
+                <span class="tech-name">n8n</span>
+              </div>
+
+              <!-- Docker -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 2"
+              >
+                <span class="tooltip">Docker</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/docker.png"
+                  alt="Docker"
+                />
+                <span class="tech-name">Docker</span>
+              </div>
+              <!-- LM Studio -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 3"
+              >
+                <span class="tooltip">LM Studio</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/lm-studio.png"
+                  alt="LM Studio"
+                />
+                <span class="tech-name">LM Studio</span>
+              </div>
+              <!-- Jupyter -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 4"
+              >
+                <span class="tooltip">Jupyter Notebook</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/jupyter.png"
+                  alt="Jupyter"
+                />
+                <span class="tech-name">Jupyter</span>
+              </div>
+              <!-- My SQL -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 5"
+              >
+                <span class="tooltip">My SQL</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/mysql.png"
+                  alt="My SQL"
+                />
+                <span class="tech-name">My SQL</span>
+              </div>
+              <!-- FastAPI -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 6"
+              >
+                <span class="tooltip">FastAPI</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/fastapi.png"
+                  alt="FastAPI"
+                />
+                <span class="tech-name">FastAPI</span>
+              </div>
+
+              <!-- Git -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 7"
+              >
+                <span class="tooltip">GitHub</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/github.png"
+                  alt="GitHub"
+                />
+                <span class="tech-name">GitHub</span>
+              </div>
+
+              <!-- JavaScript -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 8"
+              >
+                <span class="tooltip">JavaScript</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/javascript.png"
+                  alt="JavaScript"
+                />
+                <span class="tech-name">JavaScript</span>
+              </div>
+
+              <!-- React -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 9"
+              >
+                <span class="tooltip">React.js</span>
+                <img
+                  class="tech-icon"
+                  src="images/tech/react.png"
+                  alt="React.js"
+                />
+                <span class="tech-name">React</span>
+              </div>
+
+              <!-- HTML5 -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 10"
+              >
+                <span class="tooltip">HTML5</span>
+                <img class="tech-icon" src="images/tech/html.png" alt="HTML5" />
+                <span class="tech-name">HTML5</span>
+              </div>
+
+              <!-- CSS3 -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 11"
+              >
+                <span class="tooltip">CSS</span>
+                <img class="tech-icon" src="images/tech/css.png" alt="CSS" />
+                <span class="tech-name">CSS</span>
+              </div>
+
+              <!-- C -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 12"
+              >
+                <span class="tooltip">C</span>
+                <img class="tech-icon" src="images/tech/c.png" alt="C" />
+                <span class="tech-name">C</span>
+              </div>
+
+              <!-- C++ -->
+              <div
+                class="tech-card reveal reveal-stagger"
+                tabindex="0"
+                style="--r-i: 13"
+              >
+                <span class="tooltip">C++</span>
+                <img class="tech-icon" src="images/tech/cpp.png" alt="C++" />
+                <span class="tech-name">C++</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION + EXPERIENCE -->
+      <section id="experience">
+        <div class="wrap two-col">
+          <div>
+            <span class="eyebrow" style="--dot: #539d6b">Education</span>
+            <h2 class="sec-title2" style="font-size: 28px">
+              Academic background
+            </h2>
+            <div class="timeline" style="margin-top: 30px">
+              <div class="t-item" style="--dotc: var(--lavender)">
+                <div class="t-date">2024 — Present</div>
+                <div class="t-title">
+                  M.Eng. Engineering Management &amp; Intelligent Technology
+                </div>
+                <div class="t-org">Thai-Nichi Institute of Technology</div>
+                <div class="t-detail">
+                  Master of Engineering (EMT programme) · Expected graduation
+                  2027
+                </div>
+              </div>
+              <div class="t-item" style="--dotc: var(--sky)">
+                <div class="t-date">2022 — 2026 · 4 years</div>
+                <div class="t-title">
+                  B.Eng. Computer Engineering &amp; Artificial Intelligence
+                </div>
+                <div class="t-org">Thai-Nichi Institute of Technology</div>
+                <div class="t-detail">
+                  GPA 3.07 · Core focus on AI systems and computer engineering
+                  fundamentals
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="eyebrow" style="--dot: #aa2ff2"
+              >Internship Experience</span
+            >
+            <h2 class="sec-title2" style="font-size: 28px">
+              Where I've interned
+            </h2>
+            <div class="exp-card" style="margin-top: 30px">
+              <div class="exp-head">
+                <div>
+                  <div class="exp-role">
+                    Infrastructure Intern — Network &amp; Security
+                  </div>
+                  <div class="exp-org">Chunbok Company</div>
+                </div>
+                <div class="exp-date">2025</div>
+              </div>
+              <ul class="exp-list">
+                <li>
+                  Assisted network engineers with infrastructure maintenance and
+                  monitoring
+                </li>
+                <li>
+                  Built an automated network backup and monitoring system using
+                  Python
+                </li>
+                <li>
+                  Implemented SSH-based device communication and data parsing
+                </li>
+                <li>
+                  Created a web dashboard for network device management and
+                  reporting
+                </li>
+                <div class="proj-actions">
+                  <button
+                    type="button"
+                    class="view-details-btn"
+                    style="margin-left: auto"
+                    data-detail="proj-1"
+                  >
+                    View Project
+                  </button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="wrap">
+          <span class="eyebrow" style="--dot: #e7b968">Skills</span>
+          <h2 class="sec-title2">Tools I build with</h2>
+          <p class="sec-lede">
+            A toolkit spanning programming, web, networking &amp; security, and
+            AI automation.
+          </p>
+          <div class="skill-groups">
+            <div class="skill-card reveal reveal-stagger" style="--r-i: 0">
+              <div
+                class="sk-icon"
+                style="--sc-bg: var(--coral-soft); --sc-fg: var(--coral)"
+              >
+                &lt;/&gt;
+              </div>
+              <h3>Programming</h3>
+              <div
+                class="chips"
+                style="--sc-bg: var(--coral-soft); --sc-fg: var(--coral)"
+              >
+                <span class="chip">C</span><span class="chip">C++</span
+                ><span class="chip">Python</span
+                ><span class="chip">JavaScript</span>
+              </div>
+            </div>
+            <div class="skill-card reveal reveal-stagger" style="--r-i: 1">
+              <div
+                class="sk-icon"
+                style="--sc-bg: var(--sky-soft); --sc-fg: var(--sky)"
+              >
+                🌐
+              </div>
+              <h3>Web</h3>
+              <div
+                class="chips"
+                style="--sc-bg: var(--sky-soft); --sc-fg: var(--sky)"
+              >
+                <span class="chip">HTML</span><span class="chip">React.js</span>
+              </div>
+            </div>
+            <div class="skill-card reveal reveal-stagger" style="--r-i: 2">
+              <div
+                class="sk-icon"
+                style="--sc-bg: var(--lavender-soft); --sc-fg: var(--lavender)"
+              >
+                🔐
+              </div>
+              <h3>Network &amp; Security</h3>
+              <div
+                class="chips"
+                style="--sc-bg: var(--lavender-soft); --sc-fg: var(--lavender)"
+              >
+                <span class="chip">Networking Fundamentals</span
+                ><span class="chip">Network Monitoring</span
+                ><span class="chip">SSH</span
+                ><span class="chip">Cybersecurity Fundamentals</span>
+              </div>
+            </div>
+            <div class="skill-card reveal reveal-stagger" style="--r-i: 3">
+              <div
+                class="sk-icon"
+                style="--sc-bg: var(--mint-soft); --sc-fg: var(--mint)"
+              >
+                🤖
+              </div>
+              <h3>AI, Automation &amp; Tools</h3>
+              <div
+                class="chips"
+                style="--sc-bg: var(--mint-soft); --sc-fg: var(--mint)"
+              >
+                <span class="chip">n8n</span><span class="chip">LM Studio</span
+                ><span class="chip">Docker</span><span class="chip">XAMPP</span
+                ><span class="chip">VS Code</span
+                ><span class="chip">Jupyter Notebook</span>
+              </div>
+            </div>
+            <div class="skill-card reveal reveal-stagger" style="--r-i: 4">
+              <div
+                class="sk-icon"
+                style="--sc-bg: var(--sun-soft); --sc-fg: var(--sun)"
+              >
+                🤝
+              </div>
+              <h3>Soft Skills</h3>
+              <div
+                class="chips"
+                style="--sc-bg: var(--sun-soft); --sc-fg: var(--sun)"
+              >
+                <span class="chip">Teamwork</span
+                ><span class="chip">Problem-Solving</span
+                ><span class="chip">Analytical Thinking</span
+                ><span class="chip">Communication</span
+                ><span class="chip">Attention to Detail</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACHIEVEMENTS -->
+      <section>
+        <div class="wrap">
+          <span class="eyebrow" style="--dot: #539d6b">Achievements</span>
+          <h2 class="sec-title">Recognition &amp; certifications</h2>
+          <div class="ach-grid">
+            <div class="ach-card">
+              <div
+                class="ach-icon"
+                style="--ac-bg: var(--sun-soft); --ac-fg: var(--sun)"
+              >
+                🏆
+              </div>
+              <div>
+                <h3>
+                  1st Place — Event Participant Vote for Project Presentation
+                </h3>
+                <p>
+                  Awarded for the "Mr. Guide" AI automation chatbot project,
+                  voted top presentation by Event Participant Vote.
+                </p>
+              </div>
+            </div>
+            <div class="ach-card">
+              <div
+                class="ach-icon"
+                style="--ac-bg: var(--mint-soft); --ac-fg: var(--mint)"
+              >
+                ✅
+              </div>
+              <div>
+                <h3>Cybersecurity Certification — Certiport</h3>
+                <p>
+                  Successfully passed a Cybersecurity certification exam on the
+                  Certiport platform.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <div class="wrap">
+          <div class="contact-panel">
+            <div class="contact-inner">
+              <span class="eyebrow" style="--dot: #aa2ff2">Contact</span>
+              <h2 class="sec-title2">Let's build something together</h2>
+              <p class="contact-lede">
+                Open to opportunities in AI, network engineering, and cyber
+                security. Feel free to reach out — I'd love to hear from you.
+              </p>
+
+              <div class="contact-columns">
+                <div>
+                  <form class="contact-form" id="contact-form" novalidate>
+                    <div class="field" id="field-name">
+                      <label for="cf-name">Your Name</label>
+                      <input
+                        type="text"
+                        id="cf-name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                      />
+                      <div class="error-msg" id="err-name"></div>
+                    </div>
+                    <div class="field" id="field-email">
+                      <label for="cf-email">Your Email</label>
+                      <input
+                        type="email"
+                        id="cf-email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                      />
+                      <div class="error-msg" id="err-email"></div>
+                    </div>
+                    <div class="field" id="field-message">
+                      <label for="cf-message">Your Message</label>
+                      <textarea
+                        id="cf-message"
+                        name="message"
+                        rows="4"
+                        required
+                      ></textarea>
+                      <div class="error-msg" id="err-message"></div>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary send-btn"
+                      id="send-btn"
+                    >
+                      Send Message
+                    </button>
+                    <div
+                      class="form-status"
+                      id="form-status"
+                      role="status"
+                      aria-live="polite"
+                    ></div>
+                  </form>
+
+                  <div style="margin-top: 36px">
+                    <div class="messages-title">Recent messages</div>
+                    <div class="messages-list" id="messages-list">
+                      <div class="messages-empty" id="messages-empty">
+                        No messages yet — be the first to say hi.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="contact-methods">
+                    <div class="cm-card">
+                      <div class="cm-k">Email</div>
+                      <div class="cm-v">sarochinee.forwork@gmail.com</div>
+                    </div>
+                    <div class="cm-card">
+                      <div class="cm-k">Phone</div>
+                      <div class="cm-v">090-091-4227</div>
+                    </div>
+                    <div class="cm-card">
+                      <div class="cm-k">GitHub</div>
+                      <div class="cm-v">Gnuriass</div>
+                    </div>
+                    <div class="cm-card">
+                      <div class="cm-k">Location</div>
+                      <div class="cm-v">Bangkok, Thailand</div>
+                    </div>
+                  </div>
+
+                  <div class="messages-title">Social</div>
+                  <div class="social-row">
+                    <a
+                      href="https://github.com/Gnuriass"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="GitHub"
+                    >
+                      <img
+                        src="images/icon/github.png"
+                        alt="GitHub"
+                        class="social-link"
+                      />
+                    </a>
+                    <a
+                      href="mailto:sarochinee.forwork@gmail.com"
+                      aria-label="Email"
+                    >
+                      <img
+                        src="images/icon/email.png"
+                        alt="Email"
+                        class="social-link"
+                      />
+                    </a>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="LinkedIn"
+                      ><span class="tooltip">LinkedIn</span>💼</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">sairung<span>.</span></div>
+            <p>
+              Computer Engineering graduate <br />
+              building intelligent systems through AI, <br />research, and
+              practical projects.
+            </p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="mono-line">Thank You for visiting!</p>
+          <p class="mono-line">
+            © 2026 Sarochinee Bunyarit. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script>
+      /* ---------------- Loading screen ---------------- */
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("loading-screen");
+        setTimeout(() => loader.classList.add("hidden"), 500);
+      });
+
+      const reduceMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      ).matches;
+
+      /* ---------------- Header scroll state ---------------- */
+      const header = document.getElementById("site-header");
+      const backToTop = document.getElementById("back-to-top");
+      window.addEventListener("scroll", () => {
+        const y = window.scrollY;
+        header.classList.toggle("scrolled", y > 20);
+        backToTop.classList.toggle("show", y > 500);
+      });
+      backToTop.addEventListener("click", () =>
+        window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" }),
+      );
+
+      /* ---------------- Mouse-following glow ---------------- */
+      if (!reduceMotion) {
+        const glow = document.getElementById("bg-glow");
+        window.addEventListener(
+          "mousemove",
+          (e) => {
+            glow.style.setProperty("--mx", e.clientX + "px");
+            glow.style.setProperty("--my", e.clientY + "px");
+          },
+          { passive: true },
+        );
+      }
+
+      /* ---------------- Mobile menu ---------------- */
+      const navToggle = document.getElementById("nav-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const mobileClose = document.getElementById("mobile-close");
+      function openMenu() {
+        mobileMenu.classList.add("open");
+        navToggle.setAttribute("aria-expanded", "true");
+      }
+      function closeMenu() {
+        mobileMenu.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+      }
+      navToggle.addEventListener("click", openMenu);
+      mobileClose.addEventListener("click", closeMenu);
+      mobileMenu
+        .querySelectorAll("a")
+        .forEach((a) => a.addEventListener("click", closeMenu));
+
+      /* ---------------- Active nav highlight on scroll ---------------- */
+      const navSections = [
+        "home",
+        "about",
+        "portfolio",
+        "experience",
+        "contact",
+      ];
+      const navLinkEls = document.querySelectorAll("[data-nav]");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              navLinkEls.forEach((a) =>
+                a.classList.toggle("active", a.dataset.nav === id),
+              );
+            }
+          });
+        },
+        { rootMargin: "-45% 0px -50% 0px", threshold: 0 },
+      );
+      navSections.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) observer.observe(el);
+      });
+
+      /* ---------------- Scroll-reveal for cards ---------------- */
+      const revealEls = document.querySelectorAll(".reveal");
+      if (reduceMotion) {
+        revealEls.forEach((el) => el.classList.add("is-visible"));
+      } else {
+        const revealObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                revealObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
+        );
+        revealEls.forEach((el) => revealObserver.observe(el));
+      }
+
+      /* ---------------- Portfolio tabs ---------------- */
+      const tabButtons = document.querySelectorAll(".tab-btn");
+      const tabPanels = document.querySelectorAll(".tab-panel");
+      tabButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          tabButtons.forEach((b) => {
+            b.classList.remove("active");
+            b.setAttribute("aria-selected", "false");
+          });
+          tabPanels.forEach((p) => p.classList.remove("active"));
+          btn.classList.add("active");
+          btn.setAttribute("aria-selected", "true");
+          const panel = document.getElementById("tab-" + btn.dataset.tab);
+          panel.classList.add("active");
+          panel
+            .querySelectorAll(".reveal")
+            .forEach((el) => el.classList.add("is-visible"));
+        });
+      });
+
+      /* ---------------- Project detail modal ---------------- */
+      const projectData = {
+        "proj-0": {
+          src: "images/project/pj0-1.jpg",
+          title: "Mr.Guide: AI-Powered Travel Recommendation Platform",
+          meta: "Automation",
+          desc: "AI-powered travel chatbot built with n8n and Google Gemini, integrated with LINE Messaging API to provide personalized travel recommendations. The system automates travel planning, booking workflows, conversation logging, and user data management using Google Sheets, with Docker and Ngrok for deployment and webhook connectivity.",
+          badges: [
+            "n8n",
+            "LINE Messaging API",
+            "Google Gemini",
+            "Docker",
+            "Ngrok",
+          ],
+          github: "https://github.com/Gnuriass/n8n-project",
+        },
+        "proj-1": {
+          src: "images/project/pj1.png",
+          title:
+            "Automatic Network Device Backup and Monitoring System (NetworkTool)",
+          desc: "Automated network device backup and monitoring system built with Python. Implements SSH-based device communication, data parsing, and a reporting dashboard for network device management.",
+          badges: ["Python", "SSH", "Automation"],
+          github: "https://github.com/Gnuriass/Project_Internship",
+        },
+        "proj-2": {
+          src: "images/project/pj2.png",
+          title: "LowkeyTech Learning Platform",
+          desc: "A full-stack learning platform created as a business project, combining web development, business planning, and the experience of building a business from the ground up.",
+          badges: [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Node.js",
+            "MySQL",
+            "Express",
+          ],
+          github: "https://github.com/Gnuriass/Project_Lowkey-Tech",
+        },
+        "proj-3": {
+          src: "images/project/pj3.png",
+          title: "Book Recommendation Platform",
+          desc: "A web-based book recommendation platform that helps users discover books by category, view summaries and details, and connect with online bookstores for purchasing.",
+          badges: ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "MySQL"],
+          github: "https://github.com/Gnuriass/Project_web_react",
+        },
+        "proj-4": {
+          src: "images/project/pj4.png",
+          title: "The Locked Diary",
+          desc: "A console-based personal diary application built in C++ to practice object-oriented programming, featuring password protection, diary management, emotion and meeting logs, and dynamic password settings.",
+          badges: ["C++", "OOP", "Console"],
+          github: "https://github.com/Gnuriass/Project_My-Diary",
+        },
+        "proj-5": {
+          src: "images/project/pj5-1.png",
+          title: "Automatic Cat Feeder",
+          desc: "An automatic cat feeder built with ESP32 and Arduino IoT Cloud, featuring scheduled feeding, remote control, food-level monitoring, and real-time alerts through a connected dashboard.",
+          badges: ["ESP32", "MicroPython", "Arduino IoT Cloud", "IoT"],
+          github: "https://github.com/Gnuriass/Project_Microprocessor",
+        },
+        "proj-6": {
+          src: "images/project/pj6.png",
+          title: "Electricity & Water Billing System",
+          desc: "A console-based utility bill calculator written in C that calculates electricity and water bills using progressive rates, service charges, Ft, and VAT, with expense summaries and comparisons.",
+          badges: ["C", "Functions", "Loops", "Conditional Logic"],
+          github:
+            "https://github.com/Gnuriass/Project_C_Electric-bill-and-Water-bill",
+        },
+      };
+      const projModal = document.getElementById("proj-modal");
+
+      function openProjectModal(id) {
+        const d = projectData[id];
+        if (!d) return;
+
+        // Project image
+        const visual = document.getElementById("proj-modal-visual");
+        visual.innerHTML = "";
+
+        if (d.src) {
+          const img = document.createElement("img");
+          img.src = d.src;
+          img.alt = d.title;
+          visual.appendChild(img);
+        }
+
+        document.getElementById("proj-modal-title").textContent = d.title;
+        document.getElementById("proj-modal-meta").textContent = d.meta;
+        document.getElementById("proj-modal-desc").textContent = d.desc;
+        document.getElementById("proj-modal-github").href = d.github;
+
+        const badgeWrap = document.getElementById("proj-modal-badges");
+        badgeWrap.innerHTML = "";
+
+        d.badges.forEach((b) => {
+          const span = document.createElement("span");
+          span.className = "chip";
+          span.style.setProperty("--sc-bg", "var(--sky-soft)");
+          span.style.setProperty("--sc-fg", "var(--sky)");
+          span.style.background = "var(--sky-soft)";
+          span.style.color = "var(--sky)";
+          span.textContent = b;
+          badgeWrap.appendChild(span);
+        });
+
+        projModal.classList.add("open");
+      }
+      document.querySelectorAll(".view-details-btn").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          openProjectModal(btn.dataset.detail);
+        });
+      });
+      document.querySelectorAll(".proj-card").forEach((card) => {
+        card.addEventListener("click", (e) => {
+          if (e.target.closest("a") || e.target.closest("button")) return;
+          openProjectModal(card.dataset.detail);
+        });
+        card.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") openProjectModal(card.dataset.detail);
+        });
+      });
+      document
+        .getElementById("proj-modal-close")
+        .addEventListener("click", () => projModal.classList.remove("open"));
+      projModal.addEventListener("click", (e) => {
+        if (e.target === projModal) projModal.classList.remove("open");
+      });
+
+      /* ---------------- Certificate lightbox ---------------- */
+      // Certificate Image Lightbox
+      const certImageLightbox = document.getElementById("cert-image-lightbox");
+      const certLightboxImage = document.getElementById("cert-lightbox-image");
+      const certImageLightboxClose = document.getElementById(
+        "cert-image-lightbox-close",
+      );
+
+      // Open image fullscreen
+      document.querySelectorAll(".cert-thumb img").forEach((img) => {
+        img.addEventListener("click", (e) => {
+          e.stopPropagation();
+
+          certLightboxImage.src = img.src;
+          certLightboxImage.alt = img.alt;
+
+          certImageLightbox.classList.add("open");
+          document.body.style.overflow = "hidden";
+        });
+      });
+
+      // Close button
+      certImageLightboxClose.addEventListener("click", () => {
+        closeCertImageLightbox();
+      });
+
+      // Click outside image
+      certImageLightbox.addEventListener("click", (e) => {
+        if (e.target === certImageLightbox) {
+          closeCertImageLightbox();
+        }
+      });
+
+      // Close with Escape
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          closeCertImageLightbox();
+        }
+      });
+
+      function closeCertImageLightbox() {
+        certImageLightbox.classList.remove("open");
+        certLightboxImage.src = "";
+        document.body.style.overflow = "";
+      }
+
+      /* ---------------- Contact form validation + local message board ---------------- */
+      const form = document.getElementById("contact-form");
+      const sendBtn = document.getElementById("send-btn");
+      const formStatus = document.getElementById("form-status");
+      const messagesList = document.getElementById("messages-list");
+      const messagesEmpty = document.getElementById("messages-empty");
+      const STORAGE_KEY = "sairung_portfolio_messages";
+
+      function loadMessages() {
+        try {
+          return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+        } catch (e) {
+          return [];
+        }
+      }
+      function saveMessages(list) {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+        } catch (e) {}
+      }
+      function renderMessages() {
+        const list = loadMessages();
+        messagesList
+          .querySelectorAll(".message-card")
+          .forEach((el) => el.remove());
+        messagesEmpty.style.display = list.length ? "none" : "block";
+        list
+          .slice()
+          .reverse()
+          .forEach((m) => {
+            const card = document.createElement("div");
+            card.className = "message-card";
+            const initial = (m.name || "?").trim().charAt(0).toUpperCase();
+            card.innerHTML = `
+        <div class="msg-avatar">${initial}</div>
+        <div>
+          <span class="msg-name">${escapeHtml(m.name)}</span><span class="msg-time">${m.time}</span>
+          <div class="msg-text">${escapeHtml(m.message)}</div>
+        </div>`;
+            messagesList.appendChild(card);
+          });
+      }
+      function escapeHtml(str) {
+        const d = document.createElement("div");
+        d.textContent = str;
+        return d.innerHTML;
+      }
+      renderMessages();
+
+      function setError(field, msg) {
+        const wrap = document.getElementById("field-" + field);
+        const err = document.getElementById("err-" + field);
+        wrap.classList.toggle("has-error", !!msg);
+        err.textContent = msg || "";
+      }
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("cf-name").value.trim();
+        const email = document.getElementById("cf-email").value.trim();
+        const message = document.getElementById("cf-message").value.trim();
+        let valid = true;
+
+        if (!name) {
+          setError("name", "Name is required.");
+          valid = false;
+        } else setError("name", "");
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email) {
+          setError("email", "Email is required.");
+          valid = false;
+        } else if (!emailPattern.test(email)) {
+          setError("email", "Enter a valid email address.");
+          valid = false;
+        } else setError("email", "");
+        if (!message) {
+          setError("message", "Message is required.");
+          valid = false;
+        } else setError("message", "");
+
+        if (!valid) {
+          formStatus.textContent = "Please fix the errors above.";
+          formStatus.className = "form-status error";
+          return;
+        }
+
+        sendBtn.disabled = true;
+        sendBtn.textContent = "Sending…";
+        formStatus.textContent = "";
+        formStatus.className = "form-status";
+
+        setTimeout(() => {
+          const list = loadMessages();
+          list.push({
+            name,
+            email,
+            message,
+            time: new Date().toLocaleString([], {
+              hour: "2-digit",
+              minute: "2-digit",
+              month: "short",
+              day: "numeric",
+            }),
+          });
+          saveMessages(list);
+          renderMessages();
+          form.reset();
+          sendBtn.disabled = false;
+          sendBtn.textContent = "Send Message";
+          formStatus.textContent =
+            "Message sent — thank you! I'll get back to you soon.";
+          formStatus.className = "form-status success";
+        }, 900);
+      });
+
+      /* ---------------- Node network hero animation ---------------- */
+      const canvas = document.getElementById("node-canvas");
+      const ctx = canvas.getContext("2d");
+      let W, H, DPR;
+
+      function resize() {
+        const rect = canvas.parentElement.getBoundingClientRect();
+        DPR = Math.min(window.devicePixelRatio || 1, 2);
+        W = rect.width;
+        H = rect.height;
+        canvas.width = W * DPR;
+        canvas.height = H * DPR;
+        canvas.style.width = W + "px";
+        canvas.style.height = H + "px";
+        ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      }
+
+      const labels = [
+        { text: "AI", color: "#539d6b" },
+        { text: "Automation", color: "#aa2ff2" },
+        { text: "3D Avatar", color: "#E7B968" },
+      ];
+      let nodes = [];
+      let center;
+
+      function layout() {
+        center = { x: W * 0.5, y: H * 0.5, r: 30 };
+        const radius = Math.min(W, H) * 0.36;
+        nodes = labels.map((l, i) => {
+          const angle = ((Math.PI * 2) / labels.length) * i - Math.PI / 2;
+          return {
+            x: center.x + Math.cos(angle) * radius,
+            y: center.y + Math.sin(angle) * radius,
+            baseX: center.x + Math.cos(angle) * radius,
+            baseY: center.y + Math.sin(angle) * radius,
+            r: 8,
+            color: l.color,
+            text: l.text,
+            phase: Math.random() * Math.PI * 2,
+          };
+        });
+      }
+
+      function drawCurve(x1, y1, x2, y2, color, alpha) {
+        const mx = (x1 + x2) / 2,
+          my = (y1 + y2) / 2;
+        const dx = x2 - x1,
+          dy = y2 - y1;
+        const nx = -dy,
+          ny = dx;
+        const bend = 0.12;
+        const cx = mx + nx * bend,
+          cy = my + ny * bend;
+        ctx.beginPath();
+        ctx.moveTo(x1, y1);
+        ctx.quadraticCurveTo(cx, cy, x2, y2);
+        ctx.strokeStyle = color;
+        ctx.globalAlpha = alpha;
+        ctx.lineWidth = 1.6;
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+      }
+
+      let t = 0;
+      function frame() {
+        ctx.clearRect(0, 0, W, H);
+
+        nodes.forEach((n) => {
+          if (!reduceMotion) {
+            n.x = n.baseX + Math.sin(t * 0.6 + n.phase) * 6;
+            n.y = n.baseY + Math.cos(t * 0.5 + n.phase) * 6;
+          } else {
+            n.x = n.baseX;
+            n.y = n.baseY;
+          }
+          drawCurve(n.x, n.y, center.x, center.y, n.color, 0.4);
+        });
+
+        for (let i = 0; i < nodes.length; i++) {
+          const a = nodes[i],
+            b = nodes[(i + 1) % nodes.length];
+          drawCurve(a.x, a.y, b.x, b.y, "rgba(255,255,255,0.14)", 0.7);
+        }
+
+        ctx.beginPath();
+        ctx.arc(center.x, center.y, center.r, 0, Math.PI * 2);
+        ctx.fillStyle = "#141821";
+        ctx.strokeStyle = "rgba(169,194,214,0.5)";
+        ctx.lineWidth = 1.5;
+        ctx.fill();
+        ctx.stroke();
+        ctx.font = "600 12px 'JetBrains Mono', monospace";
+        ctx.fillStyle = "#F2F3F6";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText("SB", center.x, center.y);
+
+        nodes.forEach((n) => {
+          const pulse = reduceMotion ? 0 : Math.sin(t * 2 + n.phase) * 1.5;
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r + pulse, 0, Math.PI * 2);
+          ctx.fillStyle = n.color;
+          ctx.fill();
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r + pulse + 5, 0, Math.PI * 2);
+          ctx.strokeStyle = n.color;
+          ctx.globalAlpha = 0.3;
+          ctx.lineWidth = 2;
+          ctx.stroke();
+          ctx.globalAlpha = 1;
+
+          ctx.font = "600 12px 'JetBrains Mono', monospace";
+          ctx.fillStyle = "#E7EAEF";
+          ctx.textAlign = "center";
+          const labelY = n.y < center.y ? n.y - 16 : n.y + 22;
+          ctx.fillText(n.text, n.x, labelY);
+        });
+
+        t += 0.016;
+        if (!reduceMotion) requestAnimationFrame(frame);
+      }
+
+      function init() {
+        resize();
+        layout();
+        ctx.clearRect(0, 0, W, H);
+        frame();
+        if (reduceMotion) {
+          requestAnimationFrame(frame);
+        }
+      }
+
+      window.addEventListener("resize", () => {
+        resize();
+        layout();
+      });
+      init();
+    </script>
+  </body>
+</html>
