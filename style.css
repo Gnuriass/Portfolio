@@ -348,7 +348,6 @@ nav.wrap {
   background: var(--sky);
   color: #402101;
   border-color: #402101;
-  
 }
 .btn-primary:hover {
   transform: translateY(-2px);
@@ -844,7 +843,7 @@ nav.wrap {
   color: #0a0b0e;
 }
 .tab-btn:not(.active):hover {
-  background:#745c5d;
+  background: #745c5d;
   border-color: var(--sky);
   color: #a6c3e4;
 }
@@ -1160,7 +1159,6 @@ nav.wrap {
   border-radius: 50%;
   cursor: pointer;
   font-size: 16px;
-
 }
 .modal-close:hover {
   border-color: #745c5d;
@@ -1425,11 +1423,7 @@ nav.wrap {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(107, 69, 60, 0.5),
-    transparent 70%
-  );
+  background: radial-gradient(circle, rgba(107, 69, 60, 0.5), transparent 70%);
 }
 
 .contact-inner {
@@ -1959,3 +1953,24 @@ footer .mono-line {
   color: #0a0b0e;
 }
 
+.language-switcher {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.lang-btn {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  padding: 6px 9px;
+  border-radius: 8px;
+  font:
+    600 11px "JetBrains Mono",
+    monospace;
+  cursor: pointer;
+}
+.lang-btn.active {
+  background: var(--sky);
+  color: #0a0b0e;
+  border-color: var(--sky);
+}

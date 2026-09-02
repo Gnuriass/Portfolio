@@ -35,32 +35,83 @@
     <div id="loading-screen">
       <div class="loader">
         <div class="loader-name">
-          Welcome <span class="m">to my</span> <br /><span class="m"
+          <span data-en="Welcome" data-th="ยินดีต้อนรับ">Welcome</span>
+          <span class="m" data-en="to my" data-th="สู่เว็บไซต์">to my</span>
+          <br />
+          <span class="m" data-en="Portfolio" data-th="Portfolio"
             >Portfolio</span
           >
-          Website
+          <span data-en="Website" data-th="ของฉัน">Website</span>
         </div>
+
         <div class="loader-bar"></div>
-        <div class="loader-tag">Loading portfolio…</div>
+
+        <div
+          class="loader-tag"
+          data-en="Loading portfolio…"
+          data-th="กำลังโหลด Portfolio…"
+        >
+          Loading portfolio…
+        </div>
       </div>
     </div>
 
     <header id="site-header">
       <nav class="wrap">
         <a href="#home" class="logo">sairung<span>.</span></a>
+
         <div class="nav-links" id="nav-links">
-          <a href="#home" data-nav="home">Home</a>
-          <a href="#about" data-nav="about">About</a>
-          <a href="#portfolio" data-nav="portfolio">Portfolio</a>
-          <a href="#experience" data-nav="experience">Experience</a>
-          <a href="#contact" data-nav="contact">Contact</a>
+          <a href="#home" data-nav="home" data-en="Home" data-th="หน้าหลัก"
+            >Home</a
+          >
+
+          <a
+            href="#about"
+            data-nav="about"
+            data-en="About"
+            data-th="เกี่ยวกับฉัน"
+            >About</a
+          >
+
+          <a
+            href="#portfolio"
+            data-nav="portfolio"
+            data-en="Portfolio"
+            data-th="ผลงาน"
+            >Portfolio</a
+          >
+
+          <a
+            href="#experience"
+            data-nav="experience"
+            data-en="Experience"
+            data-th="ประสบการณ์"
+            >Experience</a
+          >
+
+          <a
+            href="#contact"
+            data-nav="contact"
+            data-en="Contact"
+            data-th="ติดต่อ"
+            >Contact</a
+          >
         </div>
+
         <div style="display: flex; align-items: center; gap: 12px">
           <div class="language-switch">
             <button id="lang-en" class="lang-btn active">EN</button>
             <button id="lang-th" class="lang-btn">TH</button>
           </div>
-          <a href="#contact" class="btn btn-primary nav-cta">Get in touch</a>
+
+          <a
+            href="#contact"
+            class="btn btn-primary nav-cta"
+            data-en="Get in touch"
+            data-th="ติดต่อฉัน"
+            >Get in touch</a
+          >
+
           <button
             class="nav-toggle"
             id="nav-toggle"
@@ -88,11 +139,31 @@
       <button class="mobile-close" id="mobile-close" aria-label="Close menu">
         &times;
       </button>
-      <a href="#home" data-nav="home">Home</a>
-      <a href="#about" data-nav="about">About</a>
-      <a href="#portfolio" data-nav="portfolio">Portfolio</a>
-      <a href="#experience" data-nav="experience">Experience</a>
-      <a href="#contact" data-nav="contact">Contact</a>
+      <a href="#home" data-nav="home" data-en="Home" data-th="หน้าหลัก">Home</a>
+
+      <a href="#about" data-nav="about" data-en="About" data-th="เกี่ยวกับฉัน"
+        >About</a
+      >
+
+      <a
+        href="#portfolio"
+        data-nav="portfolio"
+        data-en="Portfolio"
+        data-th="ผลงาน"
+        >Portfolio</a
+      >
+
+      <a
+        href="#experience"
+        data-nav="experience"
+        data-en="Experience"
+        data-th="ประสบการณ์"
+        >Experience</a
+      >
+
+      <a href="#contact" data-nav="contact" data-en="Contact" data-th="ติดต่อ"
+        >Contact</a
+      >
     </nav>
 
     <main id="main-content">
@@ -100,23 +171,36 @@
       <section class="hero" id="home">
         <div class="wrap hero-grid">
           <div>
-            <span class="hero-kicker">Computer Engineering · AI </span>
+            <span class="hero-kicker">Computer Engineering · AI</span>
+
             <h1>
-              Building <em>intelligent</em><br />
-              systems
+              <span data-en="Building" data-th="สร้าง">Building</span>
+              <em data-en="intelligent" data-th="ระบบอัจฉริยะ">intelligent</em
+              ><br />
+              <span data-en="systems" data-th="">systems</span>
             </h1>
-            <p class="hero-sub">
+
+            <p
+              class="hero-sub"
+              data-en="Exploring Artificial Intelligence, 3D Avatar technology, and intelligent applications through research and hands-on projects."
+              data-th="ศึกษาและพัฒนาเทคโนโลยีปัญญาประดิษฐ์ เทคโนโลยี 3D Avatar และระบบอัจฉริยะ ผ่านงานวิจัยและโปรเจกต์ที่ได้ลงมือปฏิบัติจริง"
+            >
               Exploring Artificial Intelligence, 3D Avatar technology, and
               intelligent applications through research and hands-on projects.
             </p>
+
             <div class="hero-cta">
               <a
                 href="#portfolio"
                 class="btn btn-primary"
                 data-scroll-target="portfolio"
-                >View Projects</a
+                data-en="View Projects"
+                data-th="ดูผลงาน"
               >
+                View Projects
+              </a>
             </div>
+
             <div class="hero-tags">
               <span class="htag">AI &amp; LLM</span>
               <span class="htag">3D Avatar</span>
@@ -124,6 +208,7 @@
               <span class="htag">Python</span>
             </div>
           </div>
+
           <div class="hero-visual">
             <canvas
               id="node-canvas"
@@ -142,15 +227,30 @@
               <img src="me.JPG" alt="Portrait of Sarochinee Bunyarit" />
             </div>
           </div>
+
           <div>
-            <span class="eyebrow" style="--dot: #aa2ff2">About Me</span>
-            <!--<h2 class="sec-title">Building the systems that keep things running — and running smart</h2> -->
-            <h2 class="sec-title2">
+            <span
+              class="eyebrow"
+              style="--dot: #aa2ff2"
+              data-en="About Me"
+              data-th="เกี่ยวกับฉัน"
+            >
+              About Me
+            </span>
+
+            <h2
+              class="sec-title2"
+              data-en="Sarochinee Bunyarit <span class='s'>(Sairung)</span>"
+              data-th="สโรชินี บุญฤทธิ์ <span class='s'>(สายรุ้ง)</span>"
+            >
               Sarochinee Bunyarit <span class="s">(Sairung)</span>
             </h2>
 
             <div class="about-body" style="margin-top: 20px">
-              <p>
+              <p
+                data-en="<strong>Computer Engineering graduate</strong> with a strong interest in Artificial Intelligence, particularly AI systems, 3D Avatar technology, and intelligent applications. I have explored AI models through research, experimentation, and hands-on projects, with additional experience in automation and networking."
+                data-th="<strong>สำเร็จการศึกษาด้านวิศวกรรมคอมพิวเตอร์</strong> และมีความสนใจด้าน Artificial Intelligence โดยเฉพาะ AI systems, 3D Avatar technology และ intelligent applications มีประสบการณ์ศึกษาและทดลองโมเดล AI ผ่านงานวิจัย การทดลอง และโปรเจกต์ที่ได้ลงมือปฏิบัติจริง รวมถึงมีประสบการณ์เพิ่มเติมด้าน Automation และ Networking"
+              >
                 <strong>Computer Engineering graduate</strong> with a strong
                 interest in Artificial Intelligence, particularly AI systems, 3D
                 Avatar technology, and intelligent applications. I have explored
@@ -158,41 +258,68 @@
                 projects, with additional experience in automation and
                 networking.
               </p>
-              <p>
+
+              <p
+                data-en="I enjoy exploring how emerging technologies can be combined to solve real-world problems and continuously develop my skills through research, experimentation, and practical projects."
+                data-th="ฉันสนใจการศึกษาและประยุกต์ใช้เทคโนโลยีใหม่ ๆ ร่วมกันเพื่อแก้ปัญหาในโลกจริง พร้อมพัฒนาทักษะของตนเองอย่างต่อเนื่องผ่านงานวิจัย การทดลอง และโปรเจกต์ที่นำไปใช้ได้จริง"
+              >
                 I enjoy exploring how emerging technologies can be combined to
                 solve real-world problems and continuously develop my skills
                 through research, experimentation, and practical projects.
               </p>
             </div>
+
             <div class="hero-cta">
               <a
                 href="/assets/Sarochinee_Bunyarit_Resume.pdf"
                 download="Sarochinee_Bunyarit_Resume.pdf"
                 class="btn btn-primary"
-                >Download Resume</a
+                data-en="Download Resume"
+                data-th="ดาวน์โหลด Resume"
               >
+                Download Resume
+              </a>
+
               <a
                 href="/assets/Sarochinee_Bunyarit_Transcript.pdf"
                 download="Sarochinee_Bunyarit_Transcript.pdf"
                 class="btn btn-primary"
-                >Download Transcript</a
+                data-en="Download Transcript"
+                data-th="ดาวน์โหลด Transcript"
               >
+                Download Transcript
+              </a>
+
               <a
                 href="/assets/"
                 download="Sarochinee_Bunyarit_Graduation.pdf"
                 class="btn btn-primary"
-                >Download Graduation certificate</a
+                data-en="Download Graduation Certificate"
+                data-th="ดาวน์โหลดใบรับรองการสำเร็จการศึกษา"
               >
+                Download Graduation Certificate
+              </a>
             </div>
+
             <div class="facts">
               <div class="fact">
-                <div class="k">Location</div>
-                <div class="v">Bangkok, Thailand</div>
+                <div class="k" data-en="Location" data-th="ที่อยู่">
+                  Location
+                </div>
+                <div
+                  class="v"
+                  data-en="Bangkok, Thailand"
+                  data-th="กรุงเทพฯ ประเทศไทย"
+                >
+                  Bangkok, Thailand
+                </div>
               </div>
+
               <div class="fact">
-                <div class="k">Focus</div>
-                <div class="v">AI & Intelligent Systems</div>
+                <div class="k" data-en="Focus" data-th="ความสนใจ">Focus</div>
+                <div class="v">AI &amp; Intelligent Systems</div>
               </div>
+
               <div class="fact">
                 <div class="k">GPA</div>
                 <div class="v">3.07 / 4.00</div>
@@ -212,11 +339,30 @@
         "
       >
         <div class="wrap">
-          <span class="eyebrow" style="--dot: var(--sun)">Portfolio</span>
-          <h2 class="sec-title">Portfolio Showcase</h2>
+          <span
+            class="eyebrow"
+            style="--dot: var(--sun)"
+            data-en="Portfolio"
+            data-th="ผลงาน"
+            >Portfolio</span
+          >
+
+          <h2
+            class="sec-title"
+            data-en="Portfolio Showcase"
+            data-th="ผลงานของฉัน"
+          >
+            Portfolio Showcase
+          </h2>
+
           <p class="sec-lede">
-            Explore my journey through projects, certifications, and technical
-            expertise. Code for most of these lives on
+            <span
+              data-en="Explore my journey through projects, certifications, and technical expertise. Code for most of these lives on"
+              data-th="สำรวจผลงาน ใบรับรอง และทักษะด้านเทคนิคที่ฉันได้พัฒนาผ่านการเรียนรู้และประสบการณ์จริง โดยสามารถดูโค้ดของโปรเจกต์ส่วนใหญ่ได้ที่"
+              >Explore my journey through projects, certifications, and
+              technical expertise. Code for most of these lives on</span
+            >
+
             <a
               href="https://github.com/Gnuriass"
               target="_blank"
@@ -238,9 +384,12 @@
               aria-controls="tab-projects"
               id="tabbtn-projects"
               data-tab="projects"
+              data-en="Projects"
+              data-th="โปรเจกต์"
             >
               Projects
             </button>
+
             <button
               class="tab-btn"
               role="tab"
@@ -248,9 +397,12 @@
               aria-controls="tab-certificates"
               id="tabbtn-certificates"
               data-tab="certificates"
+              data-en="Certificates"
+              data-th="ใบรับรอง"
             >
               Certificates
             </button>
+
             <button
               class="tab-btn"
               role="tab"
@@ -258,6 +410,8 @@
               aria-controls="tab-techstack"
               id="tabbtn-techstack"
               data-tab="techstack"
+              data-en="Tech Stack"
+              data-th="เทคโนโลยีที่ใช้"
             >
               Tech Stack
             </button>
@@ -270,41 +424,81 @@
             role="tabpanel"
             aria-labelledby="tabbtn-projects"
           >
+            <!-- FEATURED PROJECT -->
             <div class="featured-project">
               <div>
-                <div class="badge-win">
+                <div
+                  class="badge-win"
+                  data-en="🏆 1st Place — Participant Choice Award"
+                  data-th="🏆 อันดับ 1 — รางวัลขวัญใจผู้เข้าร่วมกิจกรรม"
+                >
                   🏆 1st Place — Participant Choice Award
                 </div>
+
                 <h3>Mr. Guide — AI Automation ChatBot</h3>
+
                 <p>
-                  A digital travel chatbot developed for the
+                  <span
+                    data-en="A digital travel chatbot developed for the"
+                    data-th="แชตบอตท่องเที่ยวดิจิทัลที่พัฒนาขึ้นสำหรับรายวิชา"
+                  >
+                    A digital travel chatbot developed for the
+                  </span>
+
                   <strong>AI for Business</strong>
-                  Course, <br />automating traveler support and trip planning
-                  through n8n workflows and the <br />LINE Messaging API.
+
+                  <span
+                    data-en="Course, automating traveler support and trip planning through n8n workflows and the"
+                    data-th="โดยทำงานอัตโนมัติด้านการให้บริการนักท่องเที่ยวและการวางแผนทริปผ่าน n8n workflows และ"
+                  >
+                    Course, automating traveler support and trip planning
+                    through n8n workflows and the
+                  </span>
+
+                  <br />
+
+                  <span>LINE Messaging API.</span>
                 </p>
+
                 <div class="fp-stack">
-                  <span>n8n</span><span>LINE Messaging API</span
-                  ><span>Docker</span>
+                  <span>n8n</span>
+                  <span>LINE Messaging API</span>
+                  <span>Docker</span>
                 </div>
+
                 <div class="fp-actions">
                   <button
                     type="button"
                     class="btn btn-ghost view-details-btn"
                     data-detail="proj-0"
+                    data-en="Preview"
+                    data-th="ดูตัวอย่าง"
                   >
                     Preview
                   </button>
+
                   <a
                     href="https://github.com/Gnuriass/n8n-project"
                     target="_blank"
                     rel="noopener"
                     class="btn btn-ghost"
+                    data-en="View on GitHub →"
+                    data-th="ดูบน GitHub →"
                   >
                     View on GitHub →
                   </a>
                 </div>
               </div>
-              <div class="fp-visual">
+
+              <!-- CLICKABLE FEATURED IMAGE -->
+              <div
+                class="fp-visual project-image-preview"
+                tabindex="0"
+                role="button"
+                aria-label="View project image"
+                data-image="images/project/pj0.png"
+                data-alt="Mr. Guide AI Automation ChatBot"
+              >
                 <img
                   src="images/project/pj0.png"
                   alt="Mr. Guide AI Automation ChatBot"
@@ -312,6 +506,7 @@
               </div>
             </div>
 
+            <!-- PROJECT GRID -->
             <div class="proj-grid" id="project-grid">
               <!-- PROJECTS 1 -->
               <div
@@ -321,33 +516,50 @@
                 style="--r-i: 0"
               >
                 <div class="proj-top">
-                  <div class="proj-icon">
+                  <div
+                    class="proj-icon project-image-preview"
+                    tabindex="0"
+                    role="button"
+                    aria-label="View project image"
+                    data-image="images/project/pj1.png"
+                    data-alt="n8n Workflow Project"
+                  >
                     <img
                       src="images/project/pj1.png"
                       alt="n8n Workflow Project"
                     />
                   </div>
                 </div>
-                <span class="proj-tag" style="--pc-fg: var(--mint)"
-                  >Network Automatic · Python</span
-                >
+
+                <span class="proj-tag" style="--pc-fg: var(--mint)">
+                  Network Automatic · Python
+                </span>
+
                 <h3>Network Backup &amp; Monitoring</h3>
-                <p>
+
+                <p
+                  data-en="Automated network device backup, SSH-based communication, and a reporting dashboard built during my infrastructure internship, with the solution further developed and put into practical use by the Network Engineering team."
+                  data-th="ระบบสำรองข้อมูลอุปกรณ์เครือข่ายแบบอัตโนมัติ การสื่อสารผ่าน SSH และ Dashboard สำหรับรายงานผล ซึ่งพัฒนาขึ้นระหว่างการฝึกงานด้าน Infrastructure (Network & Security) และได้รับการพัฒนาต่อยอดเพื่อนำไปใช้งานจริงโดยทีม Network Engineer"
+                >
                   Automated network device backup, SSH-based communication, and
                   a reporting dashboard built during my infrastructure
                   internship, with the solution further developed and put into
-                  practical use by the team.
+                  practical use by the Network Engineering team.
                 </p>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     data-detail="proj-1"
+                    data-en="Preview →"
+                    data-th="ดูตัวอย่าง →"
                   >
                     Preview →
                   </button>
                 </div>
               </div>
+
               <!-- PROJECTS 2 -->
               <div
                 class="proj-card reveal reveal-stagger"
@@ -356,32 +568,49 @@
                 style="--r-i: 1"
               >
                 <div class="proj-top">
-                  <div class="proj-icon">
+                  <div
+                    class="proj-icon project-image-preview"
+                    tabindex="0"
+                    role="button"
+                    aria-label="View project image"
+                    data-image="images/project/pj2.png"
+                    data-alt="LowkeyTech Learning Platform"
+                  >
                     <img
                       src="images/project/pj2.png"
                       alt="LowkeyTech Learning Platform"
                     />
                   </div>
                 </div>
-                <span class="proj-tag" style="--pc-fg: #f39c96"
-                  >Business Development · Full-Stack Web</span
-                >
+
+                <span class="proj-tag" style="--pc-fg: #f39c96">
+                  Business Development · Full-Stack Web
+                </span>
+
                 <h3>LowkeyTech Learning Platform</h3>
-                <p>
+
+                <p
+                  data-en="A full-stack learning platform developed as a simulated online education business, helping beginners develop digital skills through online and onsite courses, with user authentication, profiles, and MySQL database integration."
+                  data-th="แพลตฟอร์มการเรียนรู้แบบ Full-Stack ที่พัฒนาขึ้นเพื่อจำลองธุรกิจด้านการศึกษาออนไลน์ ช่วยให้ผู้เริ่มต้นพัฒนาทักษะดิจิทัลผ่านหลักสูตรออนไลน์และแบบ Onsite พร้อมระบบยืนยันตัวตน โปรไฟล์ผู้ใช้งาน และการเชื่อมต่อฐานข้อมูล MySQL"
+                >
                   A full-stack learning platform designed to help beginners
                   develop digital skills through online and onsite courses, with
                   user authentication, profiles, and MySQL database integration.
                 </p>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     data-detail="proj-2"
+                    data-en="Preview →"
+                    data-th="ดูตัวอย่าง →"
                   >
                     Preview →
                   </button>
                 </div>
               </div>
+
               <!-- PROJECTS 3 -->
               <div
                 class="proj-card reveal reveal-stagger"
@@ -390,31 +619,49 @@
                 style="--r-i: 2"
               >
                 <div class="proj-top">
-                  <div class="proj-icon">
+                  <div
+                    class="proj-icon project-image-preview"
+                    tabindex="0"
+                    role="button"
+                    aria-label="View project image"
+                    data-image="images/project/pj3.png"
+                    data-alt="Book Recommendation Platform"
+                  >
                     <img
                       src="images/project/pj3.png"
                       alt="Book Recommendation Platform"
                     />
                   </div>
                 </div>
-                <span class="proj-tag" style="--pc-fg: #998ed9"
-                  >Full-Stack Web · React</span
-                >
+
+                <span class="proj-tag" style="--pc-fg: #998ed9">
+                  Full-Stack Web · React
+                </span>
+
                 <h3>Book Recommendation Platform</h3>
-                <p>
+
+                <p
+                  data-en="A web platform for discovering, exploring, and finding books that match readers' interests. Built as a practice project to strengthen React and JavaScript development skills."
+                  data-th="แพลตฟอร์มเว็บไซต์สำหรับค้นหา สำรวจ และแนะนำหนังสือที่ตรงกับความสนใจของผู้อ่าน"
+                >
                   A web platform for discovering, exploring, and finding books
-                  that match readers interests.
+                  that match readers' interests. Built as a practice project to
+                  strengthen React and JavaScript development skills.
                 </p>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     data-detail="proj-3"
+                    data-en="Preview →"
+                    data-th="ดูตัวอย่าง →"
                   >
                     Preview →
                   </button>
                 </div>
               </div>
+
               <!-- PROJECTS 4 -->
               <div
                 class="proj-card reveal reveal-stagger"
@@ -423,28 +670,45 @@
                 style="--r-i: 3"
               >
                 <div class="proj-top">
-                  <div class="proj-icon">
+                  <div
+                    class="proj-icon project-image-preview"
+                    tabindex="0"
+                    role="button"
+                    aria-label="View project image"
+                    data-image="images/project/pj4.png"
+                    data-alt="The Locked Diary"
+                  >
                     <img src="images/project/pj4.png" alt="The Locked Diary" />
                   </div>
                 </div>
-                <span class="proj-tag" style="--pc-fg: #12b1e5"
-                  >C++ · Object-Oriented Programming</span
-                >
+
+                <span class="proj-tag" style="--pc-fg: #12b1e5">
+                  C++ · Object-Oriented Programming
+                </span>
+
                 <h3>The Locked Diary</h3>
-                <p>
+
+                <p
+                  data-en="A C++ console diary application focused on secure data management and object-oriented design."
+                  data-th="แอปพลิเคชันไดอารีบน Console ที่พัฒนาด้วย C++ โดยเน้นการจัดการข้อมูลอย่างปลอดภัยและการออกแบบเชิงวัตถุ"
+                >
                   A C++ console diary application focused on secure data
                   management and object-oriented design.
                 </p>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     data-detail="proj-4"
+                    data-en="Preview →"
+                    data-th="ดูตัวอย่าง →"
                   >
                     Preview →
                   </button>
                 </div>
               </div>
+
               <!-- PROJECTS 5 -->
               <div
                 class="proj-card reveal reveal-stagger"
@@ -453,32 +717,49 @@
                 style="--r-i: 4"
               >
                 <div class="proj-top">
-                  <div class="proj-icon">
+                  <div
+                    class="proj-icon project-image-preview"
+                    tabindex="0"
+                    role="button"
+                    aria-label="View project image"
+                    data-image="images/project/pj5.png"
+                    data-alt="Automatic Cat Feeder"
+                  >
                     <img
                       src="images/project/pj5.png"
                       alt="Automatic Cat Feeder"
                     />
                   </div>
                 </div>
-                <span class="proj-tag" style="--pc-fg: var(--sun)"
-                  >Embedded Systems · IoT</span
-                >
+
+                <span class="proj-tag" style="--pc-fg: var(--sun)">
+                  Embedded Systems · IoT
+                </span>
+
                 <h3>Automatic Cat Feeder</h3>
-                <p>
+
+                <p
+                  data-en="An IoT-based automatic cat feeder with remote control and real-time monitoring, developed as a group microprocessor systems project using Python."
+                  data-th="เครื่องให้อาหารแมวอัตโนมัติแบบ IoT พร้อมระบบควบคุมระยะไกลและการตรวจสอบแบบ Real-time พัฒนาเป็นโปรเจกต์กลุ่มในรายวิชา Microprocessor Systems โดยใช้ Python"
+                >
                   An IoT-based automatic cat feeder with remote control and
                   real-time monitoring, developed as a group microprocessor
                   systems project using Python.
                 </p>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     data-detail="proj-5"
+                    data-en="Preview →"
+                    data-th="ดูตัวอย่าง →"
                   >
                     Preview →
                   </button>
                 </div>
               </div>
+
               <!-- PROJECTS 6 -->
               <div
                 class="proj-card reveal reveal-stagger"
@@ -487,26 +768,42 @@
                 style="--r-i: 5"
               >
                 <div class="proj-top">
-                  <div class="proj-icon">
+                  <div
+                    class="proj-icon project-image-preview"
+                    tabindex="0"
+                    role="button"
+                    aria-label="View project image"
+                    data-image="images/project/pj6.png"
+                    data-alt="Electric & Water Bill Calculator"
+                  >
                     <img
                       src="images/project/pj6.png"
                       alt="Electric & Water Bill Calculator"
                     />
                   </div>
                 </div>
-                <span class="proj-tag" style="--pc-fg: #dd7755"
-                  >C · Programming Fundamentals</span
-                >
+
+                <span class="proj-tag" style="--pc-fg: #dd7755">
+                  C · Programming Fundamentals
+                </span>
+
                 <h3>Electricity &amp; Water Billing System</h3>
-                <p>
+
+                <p
+                  data-en="A C language utility calculator for electricity and water billing."
+                  data-th="โปรแกรมคำนวณค่าไฟฟ้าและค่าน้ำที่พัฒนาด้วยภาษา C"
+                >
                   A C language utility calculator for electricity and water
                   billing.
                 </p>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     data-detail="proj-6"
+                    data-en="Preview →"
+                    data-th="ดูตัวอย่าง →"
                   >
                     Preview →
                   </button>
@@ -515,7 +812,21 @@
             </div>
           </div>
 
-          <!-- Project detail modal -->
+          <!-- ---------------- Project Image Lightbox ---------------- -->
+          <div class="image-lightbox" id="project-image-lightbox">
+            <button
+              type="button"
+              class="image-lightbox-close"
+              id="project-image-lightbox-close"
+              aria-label="Close image"
+            >
+              &times;
+            </button>
+
+            <img id="project-lightbox-image" src="" alt="Project Preview" />
+          </div>
+
+          <<!-- Project detail modal -->
           <div
             class="modal-backdrop"
             id="proj-modal"
@@ -531,19 +842,28 @@
               >
                 &times;
               </button>
+
               <div class="modal-visual" id="proj-modal-visual"></div>
+
               <h3 id="proj-modal-title">Project name</h3>
+
               <div class="modal-meta" id="proj-modal-meta">Category</div>
+
               <p id="proj-modal-desc">Description</p>
+
               <div class="modal-badges" id="proj-modal-badges"></div>
+
               <div class="proj-actions" style="margin-top: 20px">
                 <a
                   href="#"
                   id="proj-modal-github"
                   target="_blank"
                   rel="noopener"
-                  >View on GitHub →</a
+                  data-en="View on GitHub →"
+                  data-th="ดูบน GitHub →"
                 >
+                  View on GitHub →
+                </a>
               </div>
             </div>
           </div>
@@ -569,11 +889,19 @@
                     alt="Security Engineer Program"
                   />
                 </div>
+
                 <div class="cert-body">
                   <h3>Security Engineer Program</h3>
+
                   <div class="cert-org">ARIT</div>
+
                   <div class="cert-date">2025</div>
-                  <div class="cert-desc">
+
+                  <div
+                    class="cert-desc"
+                    data-en="Selected for the Security Engineer program, covering network security, security principles, programming, Linux administration, cloud security, threat hunting, SIEM, and incident response."
+                    data-th="ได้รับคัดเลือกเข้าร่วมโครงการ Security Engineer ซึ่งครอบคลุมด้าน Network Security, Security Principles, Programming, Linux Administration, Cloud Security, Threat Hunting, SIEM และ Incident Response"
+                  >
                     Selected for the Security Engineer program, covering network
                     security, security principles, programming, Linux
                     administration, cloud security, threat hunting, SIEM, and
@@ -595,11 +923,19 @@
                     alt="Basic Cybersecurity Training"
                   />
                 </div>
+
                 <div class="cert-body">
                   <h3>Basic Cybersecurity Training</h3>
+
                   <div class="cert-org">Department of Skill Development</div>
+
                   <div class="cert-date">2025</div>
-                  <div class="cert-desc">
+
+                  <div
+                    class="cert-desc"
+                    data-en="Completed online training in Basic Cybersecurity, covering fundamental cybersecurity concepts and practices."
+                    data-th="ผ่านการอบรมออนไลน์หลักสูตร Basic Cybersecurity ซึ่งครอบคลุมแนวคิดพื้นฐานและแนวทางปฏิบัติด้าน Cybersecurity"
+                  >
                     Completed online training in Basic Cybersecurity, covering
                     fundamental cybersecurity concepts and practices.
                   </div>
@@ -619,13 +955,21 @@
                     alt="Basic Cybersecurity Training"
                   />
                 </div>
+
                 <div class="cert-body">
                   <h3>Basic Cybersecurity Training</h3>
+
                   <div class="cert-org">
                     Thailand Professional Qualification Institute (TPQI)
                   </div>
+
                   <div class="cert-date">2025</div>
-                  <div class="cert-desc">
+
+                  <div
+                    class="cert-desc"
+                    data-en="Completed Basic Cybersecurity training focused on foundational knowledge and professional cybersecurity competencies."
+                    data-th="ผ่านการอบรม Basic Cybersecurity โดยเน้นความรู้พื้นฐานและสมรรถนะด้าน Cybersecurity ในระดับวิชาชีพ"
+                  >
                     Completed Basic Cybersecurity training focused on
                     foundational knowledge and professional cybersecurity
                     competencies.
@@ -850,71 +1194,163 @@
       <section id="experience">
         <div class="wrap two-col">
           <div>
-            <span class="eyebrow" style="--dot: #539d6b">Education</span>
-            <h2 class="sec-title2" style="font-size: 28px">
+            <span
+              class="eyebrow"
+              style="--dot: #539d6b"
+              data-en="Education"
+              data-th="การศึกษา"
+            >
+              Education
+            </span>
+
+            <h2
+              class="sec-title2"
+              style="font-size: 28px"
+              data-en="Academic background"
+              data-th="ประวัติการศึกษา"
+            >
               Academic background
             </h2>
+
             <div class="timeline" style="margin-top: 30px">
               <div class="t-item" style="--dotc: var(--lavender)">
-                <div class="t-date">2024 — Present</div>
-                <div class="t-title">
+                <div
+                  class="t-date"
+                  data-en="2024 — Present"
+                  data-th="2567 — ปัจจุบัน"
+                >
+                  2024 — Present
+                </div>
+
+                <div
+                  class="t-title"
+                  data-en="M.Eng. Engineering Management &amp; Intelligent Technology"
+                  data-th="ปริญญาโทวิศวกรรม การจัดการวิศวกรรมและเทคโนโลยีอัจฉริยะ"
+                >
                   M.Eng. Engineering Management &amp; Intelligent Technology
                 </div>
-                <div class="t-org">Thai-Nichi Institute of Technology</div>
-                <div class="t-detail">
-                  Master of Engineering (EMT programme) · Expected graduation
+
+                <div
+                  class="t-org"
+                  data-en="Thai-Nichi Institute of Technology"
+                  data-th="สถาบันเทคโนโลยีไทย-ญี่ปุ่น"
+                >
+                  Thai-Nichi Institute of Technology
+                </div>
+
+                <div
+                  class="t-detail"
+                  data-en="Expected Graduation 2027"
+                  data-th="คาดว่าจะสำเร็จการศึกษาในปี 2027
+"
+                >
+                  Master of Engineering (EMT programme) · Expected Graduation
                   2027
                 </div>
               </div>
+
               <div class="t-item" style="--dotc: var(--sky)">
-                <div class="t-date">2022 — 2026 · 4 years</div>
-                <div class="t-title">
+                <div
+                  class="t-date"
+                  data-en="2022 — 2026 · 4 years"
+                  data-th="2565 — 2569 · 4 ปี"
+                >
+                  2022 — 2026 · 4 years
+                </div>
+
+                <div
+                  class="t-title"
+                  data-en="B.Eng. Computer Engineering &amp; Artificial Intelligence"
+                  data-th="ปริญญาตรีวิศวกรรม คอมพิวเตอร์และปัญญาประดิษฐ์"
+                >
                   B.Eng. Computer Engineering &amp; Artificial Intelligence
                 </div>
-                <div class="t-org">Thai-Nichi Institute of Technology</div>
+
+                <div
+                  class="t-org"
+                  data-en="Thai-Nichi Institute of Technology"
+                  data-th="สถาบันเทคโนโลยีไทย-ญี่ปุ่น"
+                >
+                  Thai-Nichi Institute of Technology
+                </div>
+
                 <div class="t-detail">GPA 3.07</div>
               </div>
             </div>
           </div>
+
           <div>
-            <span class="eyebrow" style="--dot: #aa2ff2"
-              >Internship Experience</span
+            <span
+              class="eyebrow"
+              style="--dot: #aa2ff2"
+              data-en="Internship Experience"
+              data-th="ประสบการณ์ฝึกงาน"
             >
-            <h2 class="sec-title2" style="font-size: 28px">
+              Internship Experience
+            </span>
+
+            <h2
+              class="sec-title2"
+              style="font-size: 28px"
+              data-en="Where I've interned"
+              data-th="ประสบการณ์การฝึกงาน"
+            >
               Where I've interned
             </h2>
+
             <div class="exp-card" style="margin-top: 30px">
               <div class="exp-head">
                 <div>
                   <div class="exp-role">
                     Infrastructure Intern — Network &amp; Security
                   </div>
+
                   <div class="exp-org">Chunbok Company</div>
                 </div>
-                <div class="exp-date">2025</div>
+
+                <div class="exp-date" data-en="2025" data-th="2568">2025</div>
               </div>
+
               <ul class="exp-list">
-                <li>
+                <li
+                  data-en="Assisted network engineers with infrastructure maintenance and monitoring"
+                  data-th="ช่วยเหลือทีม Network Engineer ในการดูแลและตรวจสอบโครงสร้างพื้นฐานของระบบเครือข่าย"
+                >
                   Assisted network engineers with infrastructure maintenance and
                   monitoring
                 </li>
-                <li>
+
+                <li
+                  data-en="Built an automated network backup and monitoring system using Python"
+                  data-th="พัฒนาระบบสำรองข้อมูลและตรวจสอบอุปกรณ์เครือข่ายอัตโนมัติด้วย Python"
+                >
                   Built an automated network backup and monitoring system using
                   Python
                 </li>
-                <li>
+
+                <li
+                  data-en="Implemented SSH-based device communication and data parsing"
+                  data-th="พัฒนาการสื่อสารกับอุปกรณ์ผ่าน SSH และประมวลผลข้อมูลด้วยระบบ Data Parsing"
+                >
                   Implemented SSH-based device communication and data parsing
                 </li>
-                <li>
+
+                <li
+                  data-en="Created a web dashboard for network device management and reporting"
+                  data-th="พัฒนา Web Dashboard สำหรับจัดการอุปกรณ์เครือข่ายและจัดทำรายงาน"
+                >
                   Created a web dashboard for network device management and
                   reporting
                 </li>
+
                 <div class="proj-actions">
                   <button
                     type="button"
                     class="view-details-btn"
                     style="margin-left: auto"
                     data-detail="proj-1"
+                    data-en="View Project"
+                    data-th="ดูโปรเจกต์"
                   >
                     View Project
                   </button>
@@ -929,20 +1365,46 @@
       <section id="contact">
         <div class="wrap">
           <div class="contact-panel">
+            <span
+              class="eyebrow"
+              style="--dot: #aa2ff2"
+              data-en="Contact"
+              data-th="ติดต่อ"
+            >
+              Contact
+            </span>
             <div class="contact-inner">
-              <span class="eyebrow" style="--dot: #aa2ff2">Contact</span>
-              <h2 class="sec-title2">Let's build something together</h2>
+              <h2
+                class="sec-title2"
+                data-en="Let's build something together"
+                data-th="มาสร้างบางสิ่งที่น่าสนใจไปด้วยกัน"
+              >
+                Let's build something together
+              </h2>
+
               <p class="contact-lede">
-                Currently exploring AI and 3D Avatar technologies, and looking
-                to grow in the field of AI. Feel free to reach out — your
-                message will be sent directly to my email.
+                <span
+                  data-en="Currently exploring AI and 3D Avatar technologies, and looking to grow in the field of AI. Feel free to reach out — your message will be sent directly to my email."
+                  data-th="ปัจจุบันกำลังศึกษาและพัฒนาเกี่ยวกับ AI และเทคโนโลยี 3D Avatar พร้อมมุ่งมั่นที่จะเติบโตในสายงาน AI หากต้องการติดต่อหรือพูดคุย สามารถส่งข้อความมาได้โดยตรง ข้อความจะถูกส่งไปยังอีเมลของฉัน"
+                >
+                  Currently exploring AI and 3D Avatar technologies, and looking
+                  to grow in the field of AI. Feel free to reach out — your
+                  message will be sent directly to my email.
+                </span>
               </p>
 
               <div class="contact-columns">
                 <div>
                   <form class="contact-form" id="contact-form" novalidate>
                     <div class="field" id="field-name">
-                      <label for="cf-name">Your Name</label>
+                      <label
+                        for="cf-name"
+                        data-en="Your Name"
+                        data-th="ชื่อของคุณ"
+                      >
+                        Your Name
+                      </label>
+
                       <input
                         type="text"
                         id="cf-name"
@@ -950,11 +1412,19 @@
                         autocomplete="name"
                         required
                       />
+
                       <div class="error-msg" id="err-name"></div>
                     </div>
 
                     <div class="field" id="field-email">
-                      <label for="cf-email">Your Email</label>
+                      <label
+                        for="cf-email"
+                        data-en="Your Email"
+                        data-th="อีเมลของคุณ"
+                      >
+                        Your Email
+                      </label>
+
                       <input
                         type="email"
                         id="cf-email"
@@ -962,17 +1432,26 @@
                         autocomplete="email"
                         required
                       />
+
                       <div class="error-msg" id="err-email"></div>
                     </div>
 
                     <div class="field" id="field-message">
-                      <label for="cf-message">Your Message</label>
+                      <label
+                        for="cf-message"
+                        data-en="Your Message"
+                        data-th="ข้อความของคุณ"
+                      >
+                        Your Message
+                      </label>
+
                       <textarea
                         id="cf-message"
                         name="message"
                         rows="4"
                         required
                       ></textarea>
+
                       <div class="error-msg" id="err-message"></div>
                     </div>
 
@@ -980,6 +1459,8 @@
                       type="submit"
                       class="btn btn-primary send-btn"
                       id="send-btn"
+                      data-en="Send Message"
+                      data-th="ส่งข้อความ"
                     >
                       Send Message
                     </button>
@@ -999,7 +1480,9 @@
                         href="mailto:sarochinee.forwork@gmail.com"
                         aria-label="Email"
                       >
-                        <div class="cm-k">Email</div>
+                        <div class="cm-k" data-en="Email" data-th="อีเมล">
+                          Email
+                        </div>
                         <div class="cm-v">sarochinee.forwork@gmail.com</div>
                       </a>
 
@@ -1017,7 +1500,11 @@
                     </div>
 
                     <div style="margin-top: 20px">
-                      <div class="messages-title">
+                      <div
+                        class="messages-title"
+                        data-en="Thank you for reaching out.♡"
+                        data-th="ขอบคุณที่ติดต่อมานะคะ ♡"
+                      >
                         Thank you for reaching out.♡
                       </div>
                     </div>
@@ -1035,22 +1522,67 @@
         <div class="footer-grid">
           <div class="footer-brand">
             <div class="logo">sairung<span>.</span></div>
-            <p>
+            <p
+              data-en="Computer Engineering graduate building intelligent systems through AI, research, and practical projects."
+              data-th="วิศวกรรมคอมพิวเตอร์ มุ่งพัฒนาระบบอัจฉริยะผ่าน AI งานวิจัย และโปรเจกต์ที่ลงมือทำจริง
+"
+            >
               Computer Engineering graduate <br />
               building intelligent systems through AI, <br />research, and
               practical projects.
             </p>
           </div>
           <div class="footer-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" data-nav="home" data-en="Home" data-th="หน้าหลัก"
+              >Home</a
+            >
+
+            <a
+              href="#about"
+              data-nav="about"
+              data-en="About"
+              data-th="เกี่ยวกับฉัน"
+              >About</a
+            >
+
+            <a
+              href="#portfolio"
+              data-nav="portfolio"
+              data-en="Portfolio"
+              data-th="ผลงาน"
+              >Portfolio</a
+            >
+
+            <a
+              href="#experience"
+              data-nav="experience"
+              data-en="Experience"
+              data-th="ประสบการณ์"
+              >Experience</a
+            >
+
+            <a
+              href="#contact"
+              data-nav="contact"
+              data-en="Contact"
+              data-th="ติดต่อ"
+              >Contact</a
+            >
           </div>
         </div>
         <div class="footer-bottom">
-          <p class="mono-line">Thank You for visiting!</p>
-          <p class="mono-line">
+          <p
+            class="mono-line"
+            data-en="Thank You for visiting!"
+            data-th="ขอบคุณที่มาเยือน!"
+          >
+            Thank You for visiting!
+          </p>
+          <p
+            class="mono-line"
+            data-en="© 2026 Sarochinee Bunyarit. All rights reserved."
+            data-th="© 2026 Sarochinee Bunyarit. สงวนลิขสิทธิ์ทุกประการ."
+          >
             © 2026 Sarochinee Bunyarit. All rights reserved.
           </p>
         </div>
