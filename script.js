@@ -675,7 +675,7 @@ if (form && sendBtn && formStatus) {
 
     /* ---------------- Send Email ---------------- */
 
-    emailjs.sendForm("service_ie2275g", "template_e1af3vo", form).then(
+    emailjs.sendForm("service_1ametrg", "template_ls2pbpp", form).then(
       (response) => {
         console.log("EmailJS SUCCESS:", response);
 
