@@ -33,7 +33,7 @@ This portfolio includes my research, experimentation, and hands-on projects as I
 ## Portfolio
 
 🌐 **Live Website:**  
-https://gnuriass.github.io/Porfolio/
+https://gnuriass.github.io/Portfolio/
 
 ## Contact
 
