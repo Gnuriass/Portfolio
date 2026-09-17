@@ -1559,34 +1559,23 @@ nav.wrap {
 }
 
 /*EMAIL + GITHUB*/
-
 .contact-methods {
   width: 100%;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
   gap: 16px;
-
   margin-top: 12px;
 }
 
 .cm-card {
   display: block;
-
   background: rgba(255, 255, 255, 0.06);
-
   border: 1px solid rgba(255, 255, 255, 0.14);
-
   border-radius: 16px;
-
   padding: 20px;
-
   text-decoration: none;
   color: inherit;
-
   text-align: left;
-
   transition:
     background 0.2s,
     border-color 0.2s,
@@ -1595,10 +1584,15 @@ nav.wrap {
 
 .cm-card:hover {
   background: rgba(255, 255, 255, 0.12);
-
   border-color: rgba(255, 255, 255, 0.25);
-
   transform: translateY(-2px);
+}
+
+/* LinkedIn อยู่ตรงกลาง */
+.cm-card:nth-child(3) {
+  grid-column: 1 / -1;
+  width: 50%;
+  justify-self: center;
 }
 
 .cm-k {
