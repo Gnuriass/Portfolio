@@ -152,14 +152,14 @@ const projectData = {
     },
 
     meta: {
-      en: "Automation",
-      th: "Automation",
+      en: "AI Automation Developer",
+      th: "AI Automation Developer",
     },
 
     desc: {
-      en: "AI-powered travel chatbot built with n8n and Google Gemini, integrated with LINE Messaging API to provide personalized travel recommendations. The system automates travel planning, booking workflows, conversation logging, and user data management using Google Sheets, with Docker and Ngrok for deployment and webhook connectivity.",
+      en: "Developed an end-to-end AI-powered travel assistant using n8n, integrating LINE Messaging API, Google APIs, OAuth, and Gemini to automate travel planning and personalized recommendations.\n\nResponsible for developing the complete n8n workflow, including frontend/backend integration, API integration, data processing, and chatbot interactions. Designed and implemented the system integration from user input to AI-generated responses.",
 
-      th: "แชตบอตท่องเที่ยวที่ขับเคลื่อนด้วย AI พัฒนาด้วย n8n และ Google Gemini และเชื่อมต่อกับ LINE Messaging API เพื่อให้คำแนะนำการท่องเที่ยวที่เหมาะกับผู้ใช้งาน ระบบสามารถทำงานอัตโนมัติด้านการวางแผนการเดินทาง Workflow สำหรับการจอง การบันทึกบทสนทนา และการจัดการข้อมูลผู้ใช้ผ่าน Google Sheets พร้อมใช้ Docker และ Ngrok สำหรับการ Deploy และการเชื่อมต่อ Webhook",
+      th: "พัฒนา AI-powered Travel Assistant แบบครบวงจรด้วย n8n โดยเชื่อมต่อ LINE Messaging API, Google APIs, OAuth และ Gemini เพื่อช่วยทำงานด้านการวางแผนการเดินทางและการแนะนำสถานที่แบบอัตโนมัติและเหมาะกับผู้ใช้\n\nรับผิดชอบการพัฒนา n8n workflow ตั้งแต่การเชื่อมต่อ Frontend/Backend, API Integration, การประมวลผลข้อมูล และการทำงานของ Chatbot รวมถึงออกแบบและพัฒนาการเชื่อมต่อระบบตั้งแต่การรับข้อมูลจากผู้ใช้จนถึงการสร้างคำตอบด้วย AI",
     },
 
     badges: ["n8n", "LINE Messaging API", "Google Gemini", "Docker", "Ngrok"],
@@ -181,9 +181,9 @@ const projectData = {
     },
 
     desc: {
-      en: "Automated network device backup and monitoring system built with Python. Implements SSH-based device communication, data parsing, and a reporting dashboard for network device management.",
+      en: 'Independently developed an automated Network Backup & Monitoring system using Python, SSH, and Netmiko to automate network device configuration backup, monitoring, and Preventive Maintenance data collection. The system supports Cisco, HPE, and H3C devices, with automated data parsing for device information such as system version, uptime, CPU and memory usage, temperature, and port status. A Streamlit web dashboard was also developed to manage devices, run backup and monitoring tasks, and generate structured reports. The system was developed in consultation with Network Engineers and reduced Preventive Maintenance time from 35 minutes to 6.5 minutes, an 81.43% reduction.',
 
-      th: "ระบบสำรองข้อมูลและตรวจสอบอุปกรณ์เครือข่ายแบบอัตโนมัติที่พัฒนาด้วย Python โดยใช้การสื่อสารกับอุปกรณ์ผ่าน SSH การประมวลผลข้อมูล และ Reporting Dashboard สำหรับจัดการอุปกรณ์เครือข่าย",
+      th: "พัฒนาระบบ Network Backup & Monitoring สำหรับสำรอง Configuration ติดตามสถานะ และเก็บข้อมูล Preventive Maintenance ของอุปกรณ์เครือข่ายแบบอัตโนมัติด้วย Python, SSH และ Netmiko โดยรองรับอุปกรณ์ Cisco, HPE และ H3C พร้อมระบบ Data Parsing สำหรับจัดระเบียบข้อมูล เช่น System Version, Uptime, CPU และ Memory Usage, Temperature และสถานะของ Port รวมถึงพัฒนา Streamlit Web Dashboard สำหรับจัดการอุปกรณ์ สั่งงาน Backup และ Monitoring และสร้างรายงานอย่างเป็นระบบ โดยพัฒนาระบบจากปัญหาการทำ PM จริงร่วมกับการปรึกษา Network Engineers และสามารถลดระยะเวลาในการทำ Preventive Maintenance จาก 35 นาทีเหลือ 6.5 นาที หรือ 81.43%",
     },
 
     badges: ["Python", "SSH", "Automation"],
